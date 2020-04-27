@@ -28,7 +28,8 @@ To run this project execute:
 * Example link do get filtered rates of currencies 
 http://localhost:8081/currencies/BTC?filter=ETH&filter=XRP&filter=USDT
 
-* Exmaples json to calculate exchange rate of 1 BTC to ETH and XRP
+* Exmaple json to calculate exchange rate of 1 BTC to ETH and XRP
+http://localhost:8081/currencies/exchange
 {
     "from": "BTC",
     "to": [
@@ -38,7 +39,7 @@ http://localhost:8081/currencies/BTC?filter=ETH&filter=XRP&filter=USDT
     "amount": 1
 }
 
-Please keep in mind that provided free api key can only handle 100 request per 24H.
+Please keep in mind that provided free api key can only handle 100 request per 24H. You can get your free api key here - https://www.coinapi.io/
 
 ## Author
 * Przemysław Hawlicki
